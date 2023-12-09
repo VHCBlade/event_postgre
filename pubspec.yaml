@@ -1,0 +1,20 @@
+name: event_postgre
+description: A starting point for Dart libraries or applications.
+version: 0.1.0
+repository: https://github.com/VHCBlade/event_postgre
+
+environment:
+  sdk: ^3.0.6
+
+# Add regular dependencies here.
+dependencies:
+  event_bloc: ^4.2.1
+  event_db: ^0.2.0
+
+  postgres: ^2.6.3
+
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
